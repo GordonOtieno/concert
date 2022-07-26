@@ -16,11 +16,15 @@
     ></script>
 
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+    
 </head>
 <body>
     <header class="fixed-top">
           <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-0 hidden-sm top-nav">
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark py-0 d-none d-md-block d-lg-block d-xl-block">
       <div class="container">
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
@@ -41,27 +45,21 @@
             </li>
           </ul>
         </div>
+      </div> 
+     </nav>
 
-      </div>
-      
-    </nav>
-    
-    <nav class="navbar navbar-expand-md bg-white navbar-light py-3 fixed-topp">
+     <nav class="navbar navbar-expand-md bg-white navbar-light py-3 fixed-top sec-nav">
       <div class="container">
         <a href="#" class="navbar-brand"><img src="./images/icons/logo.png" alt=""></a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navmenu">
+          <span> </span>
+          <span> </span>
+          <span> </span>
+       </a>
 
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+          <ul class="navbar-nav ms-auto main-navigation">
+            <li class="nav-item nav-hover">
               <a href="./about.html" class="nav-link px-3 fw-bold">About</a>
             </li>
             <li class="nav-item">
@@ -76,13 +74,13 @@
             <li class="nav-item">
               <a href="#instructors" class="nav-link px-3 fw-bold">News</a>
             </li>
-            <li class="nav-item">
-              <a href="#instructors" class="btn py-1 ms-5 px-5 btn-outline-danger btn-lg">Join</a>
+            <li class="nav-item d-none d-lg-block d-md-block d-xl-block">
+              <a href="#instructors" class="btn py-1 ms-5 px-3 campaign-btn btn-lg">LH Campaign</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+     </nav>
       </header>
 
         <main>
@@ -98,11 +96,7 @@
                   </p>
                   <p>
                     Joyfull codding mements with teams believing in the value of<br>
-                    openness and sharing craetung a positive change with people <br>
-                    from all over the world
-                  </p>
-                  <div >
-                     <p class="event-date">2022.07.24(Tues)~ 28(Fri)</p> 
+                    openness anovent-date">2022.07.24(Tues)~ 28(Fri)</p> 
                    	<p>&#64;Sarit Expo Centre,
                       Westlands. (2nd Floor, New Wing) Nairobi</p>
                   </div>
@@ -180,120 +174,7 @@
                 Our invited speakers all have 5+ years working as a web developer in the
                 industry
               </p>
-              <div class="row g-2">
-                <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center d-flex">
-                      <img
-                        src="https://randomuser.me/api/portraits/men/19.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">John Doe</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                      </p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-      
-                <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center d-flex">
-                      <img
-                        src="https://randomuser.me/api/portraits/women/16.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">John Doe</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                      </p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-      
-                <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center d-flex">
-                      <img
-                        src="https://randomuser.me/api/portraits/men/11.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">John Doe</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                      </p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-      
-                <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center d-flex">
-                      <img
-                        src="https://randomuser.me/api/portraits/women/17.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">John Doe</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                      </p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-
-                <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center d-flex">
-                      <img
-                        src="https://randomuser.me/api/portraits/men/18.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">John Doe</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                      </p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-                <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center d-flex">
-                      <img
-                        src="https://randomuser.me/api/portraits/women/19.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">John Doe</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                      </p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-
+              <div class="row g-2 speakers">
                 </div>
               </div>
             </div>
@@ -303,19 +184,26 @@
     <section class="bg-dark text-light p-5 text-center">
       <div class="container">
         <p class="lead fw-bold display-5">Partners</p>
-        <ul class="d-flex justify-content-between text-white partners-list">
-          <li><a href="#" class="partner-logo"><img src="./images/icons/google.png" alt="google"></a></li>
-          <li><a href="#" class="partner-logo"><img src="./images/icons/partner1.png" alt="hub"></a></li>
-          <li><a href="#" class="partner-logo"><img src="./images/icons/ictauthority.png" alt="ictAuthority"></a></li>
-          <li><a href="#" class="partner-logo"><img src="./images/icons/oracle.png" alt="oracle"></a></li>
-          <li><a href="#" class="partner-logo"><img src="./images/icons/azure.png" alt="azure"></a></li>
-        </ul>
+        <div class="row partners-list-section">
+          <div class="col-md">
+            <a href="#" class="partner-logo"><img src="./images/icons/google.png" alt="google"></a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="partner-logo"><img src="./images/icons/partner1.png" alt="hub"></a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="partner-logo"><img src="./images/icons/ictauthority.png" alt="ictAuthority"></a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="partner-logo"><img src="./images/icons/oracle.png" alt="oracle"></a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="partner-logo"><img src="./images/icons/azure.png" alt="azure"></a>
+          </div>
+        </div>
       </div>
     </section>
-
         </main>
-   
-    
     <!-- Footer -->
     <footer class="p-5 bg-light text-dark text-center position-relative">
       <div class="container text-center">
@@ -335,5 +223,6 @@
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"
   ></script>
+  <script src="./config.js"></script>
 </body>
 </html>
