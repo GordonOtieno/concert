@@ -1,22 +1,27 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Lawyers Hub Web conference
 
-# Project Name
-
-> Description the project.
+> This website is to publicize this years conference by Lawyers Hub
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html
+- css
+- javascript
+
+- Frameworks : **bootstrap**
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Lawyers Hub](https://gordonotieno.github.io/concert/)
 
 
 ## Getting Started
+ In order to use the files, you will clone and then follow the instructions below: 
+ 
+## Prerequisites
+Good Knowlege of html and css.
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
