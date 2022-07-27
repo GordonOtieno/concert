@@ -21,7 +21,7 @@
     <!-- Navbar -->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark py-0 d-none d-md-block d-lg-block d-xl-block">
 <div class="container">
-  <div class="collapse navbar-collapse" id="navmenu">
+  <div class="collapse navbar-collapse" >
     <ul class="navbar-nav ms-auto">
       <li class="nav-item">
         <a href="#facebook" class="nav-link"><i class="fa fa-facebook text-white fw-bold" aria-hidden="true"></i></a>
@@ -44,14 +44,14 @@
 </div> 
 </nav>
 
-<nav class="navbar navbar-expand-md bg-white navbar-light py-3 fixed-top main-navigation sec-nav">
+<nav class="navbar navbar-expand-md bg-white navbar-light py-3 main-navigation sec-nav">
 <div class="container">
   <a href="./index.html" class="navbar-brand"><img src="./images/icons/logo.png" alt=""></a>
-  <a class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navmenu">
+  <button class="navbar-toggler collapsed border-0 border border-0" type="button" data-toggle="collapse" data-target="#navmenu">
+    <span class="text-dark"> </span>
     <span> </span>
     <span> </span>
-    <span> </span>
- </a>
+  </button>
 
   <div class="collapse navbar-collapse" id="navmenu">
     <ul class="navbar-nav ms-auto main-navigation">
@@ -80,16 +80,16 @@
 </header>
 
         <main>
-          <section class="bg-light text-dark p-5 text-center text-sm-start">
+          <section class="bg-light text-dark p-0 text-center text-sm-start">
             <div class="container-fluid home-container"
-            style="background-image: url('./images/home-page.jpg');">
-            <div class="container position-cont text-center ">
+            >
+            <div class="container position-cont ">
               <div class="">
-                <div>
-                  <div class="about-title">
-                    <h2>LAWYERS HUB <br> GLOBAL SUMMIT 2022</h2>
+                <div class="text-center about-sammit-cont">
+                  <div class="about-title pt-5 mt-3">
+                    <h2>AFRICAN LAWTECH <br> GLOBAL SUMMIT 2022</h2>
                   </div>
-                  <div class="bg-white about-desc p-5 mt-5">
+                  <div class="bg-white about-desc px-4 py-5 mt-5 about-sammit">
                     “The Global Legal Hackathon aims at gathering people together to see if they can build a working
                     model of a software-based legal product. We want to give a chance for anyone to test out an idea
                     and provide the very best platform to do so.”
@@ -99,7 +99,7 @@
                     Africa Law Tech Festival will host the Global Legal Hackathon in 2020happening
                     simultaneously in over 40 countries that weekend.
                   </div>
-                  <div class="contact-address pt-5">
+                  <div class="contact-address py-5">
                     Please contact us using the below email address for any further information. Lawyers Hub fetival 2022!
                   <br> <span class="fw-bold">lawtech@lawyershub.ke 	&gt; </span>
                   </div>
@@ -114,60 +114,53 @@
               <!-- Boxes -->
     <section class="p-5">
       <div class="container-fluid bg-white py-5 mx-0">
-        <div class="container px-0">
-          <h2 class="center-text p-5">Lawyers Hub Summit 2022 Logo</h2>
-           <p class="summit-logp-desc text-center">
-            The logo of Layers Hub 2022 summit was decided through the logo competition <br>
-            from 15 july to 22nd July. After online public  voting and selection commitee's<br>
-            judging process, the logo from Nairobi team worn the prize Afte consultation <br> with the director,We optimize the prize winning logo for the years summit, as following.
-           </p>
+        <div class="container px-0 d-flex winner-logo">
+          <h2 class="center-text p-5 fw-bold">Lawyers Hub Summit 2022 Logo</h2>
+          <p class="summit-logo-desc">
+              The logo African LawTech Festival 2022 summit was decided through the logo competition 
+              from 15 july to 22nd July. After online public  voting and selection commitee's
+              judging process, the logo from Nairobi team worn the prize Afte consultation with the director,We optimize the prize winning logo for the years summit, as following.
+          </p>
          <div class="summit-logo text-center mt-5">
           <img src="./images/icons/partner2.png" alt="summit-logo">
          </div>
         </div>
       </div>
     </section>
+   
+
 
            <!-- instructors section -->
-           <section id="instructors" class="instructors p-5 text-dark">
-            <div class="container">
-              <h2 class="text-center text-dark">See Past Summits</h2>
+           <section id="instructors" class="instructors p-4 text-dark bg-white past-sammit-cont">
+            <div class="container ">
+              <h2 class="text-center text-dark pt-5">See Past Summits</h2>
               <p class="lead text-center  mb-5">
                 Take a look at the last Two that were held in Rwanda and Addis Ababa respectively
               </p>
               <div class="row g-1">
-                <div class="col-md-6 col-lg-6">
-                  <div class="card bg-light">
-                    <div class="card-body text-center">
-                      <img
-                        src="https://randomuser.me/api/portraits/men/19.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">2021</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+
+                <div class="col-md-6 col-lg-6 ">
+                  <div class="card bg-light  first-image">
+                    <div class="card-body past-sammit">
+
+                  <div class="text-center">
+                      <h3 class="card-title mb-3 text-white fw-bold">2020</h3>
+                      <p class="card-text text-white">
+                        African LawTech festival in Acra Ghana.
                       </p>
-                      </div>
-                     </div>
+                    </div>
+                  </div>
                   </div>
                 </div>
       
                 <div class="col-md-12 col-lg-6">
-                  <div class="card bg-light text-center">
-                    <div class="card-body text-center">
-                      <img
-                        src="https://randomuser.me/api/portraits/women/16.jpg"
-                        class=" mb-3"
-                        alt=""
-                      />
-                      <div>
-                      <h3 class="card-title mb-3">2020</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  <div class="card bg-light  second-image">
+                    <div class="card-body past-sammit">
+
+                      <div class="text-center">
+                      <h3 class="card-title mb-3 text-white fw-bold">2021</h3>
+                      <p class="card-text text-white">
+                        African Law tech Festival In Dodoma Tanzania.
                       </p>
                       </div>
                      </div>
@@ -176,21 +169,22 @@
     
                 </div>
               </div>
-            </div>
+            
           </section>
         </main>
    
     
     <!-- Footer -->
     <footer class="p-5 bg-light text-dark text-center position-relative">
-      <div class="container text-center">
-          <div class="footer-container">
-           <a href="#"><img src="./images/icons/partner2.png" alt="lawyers hub"></a>
-           <p>Africa's inaugural LawTech Conference, Hackathon, Awards & Institute</p>
+      <div class="container">
+          <div class="d-flex text-center footer-text">
+           <a href="#"><img class="p-5" src="./images/icons/partner2.png" alt="lawyers hub"></a>
+           <p class="px-5 pt-5">Africa's inaugural LawTech Conference, Hackathon, Awards & Institute
+            <br><span class="fw-bold">Lawyers Hub | tech for justice © 2022</span>
+           </p>
             
           </div>
         
-        </a>
       </div>
     </footer>   
     

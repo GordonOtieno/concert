@@ -1,40 +1,45 @@
 const speakers = [
-    {
-        image: "https://randomuser.me/api/portraits/men/19.jpg",
-        name: "John Doe",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam."
-    },
-    {
-        image: "https://randomuser.me/api/portraits/women/19.jpg",
-        name: "Jane Doe",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam."
-    },
-    {
-        image: "https://randomuser.me/api/portraits/men/16.jpg",
-        name: "Kevin Smith",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam."
-    },
-    {
-        image: "https://randomuser.me/api/portraits/women/16.jpg",
-        name: "Mercy Smith",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam."
-    },
-    {
-        image: "https://randomuser.me/api/portraits/men/12.jpg",
-        name: "Bill Clinton",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam."
-    },
-    {
-        image: "https://randomuser.me/api/portraits/women/12.jpg",
-        name: "Hillary Clinton",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam."
-    },
-
-]
-  function showSpeakers (speaker) {
-    let list="";
-    for (let i=0; i<speaker.length; i++){
-    list +=` <div class="col-md-12 col-lg-6">
+  {
+    image: 'https://randomuser.me/api/portraits/men/19.jpg',
+    name: 'John Doe',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.',
+  },
+  {
+    image: 'https://randomuser.me/api/portraits/women/19.jpg',
+    name: 'Jane Doe',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.',
+  },
+  {
+    image: 'https://randomuser.me/api/portraits/men/16.jpg',
+    name: 'Kevin Smith',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.',
+  },
+  {
+    image: 'https://randomuser.me/api/portraits/women/16.jpg',
+    name: 'Mercy Smith',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.',
+  },
+  {
+    image: 'https://randomuser.me/api/portraits/men/12.jpg',
+    name: 'Bill Clinton',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.',
+  },
+  {
+    image: 'https://randomuser.me/api/portraits/women/12.jpg',
+    name: 'Hillary Clinton',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.',
+  },
+];
+function showSpeakers(speaker) {
+  let list = '';
+  for (let i = 0; i < speaker.length; i += 1) {
+    list += ` <div class="col-md-12 col-lg-6">
     <div class="card bg-light">
       <div class="card-body d-flex">
         <img
@@ -50,8 +55,8 @@ const speakers = [
         </div>
        </div>
     </div>
-  </div> `
-  document.querySelector('.row.g-2.speakers').innerHTML=list;
+  </div> `;
+    document.querySelector('.row.g-2.speakers').innerHTML = list;
   }
 }
 showSpeakers(speakers);
