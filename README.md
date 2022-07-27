@@ -5,10 +5,10 @@
 
 ## Built With
 
- html
- css
- javascript
-**Frameworks** :bootstrap
+ - html
+ - css
+ - javascript
+ - **Frameworks** :bootstrap
 
 
 ## Live Demo
@@ -21,10 +21,11 @@
  
 ## Prerequisites
 - Good Knowlege of html and css.
+- Some knowledge of javascript.
 - Install nodejs then copy linters files from https://github.com/microverseinc/linters-config/tree/master/html-css-js
 
 ### Setup
-Use 'git clone https://github.com/GordonOtieno/concert.git' to clone the repository to your local environment.
+Use 'git clone https://github.com/GordonOtieno/concert.git' to clone the repository to your local environment and begin working on it.
 
 ## Authors
 
