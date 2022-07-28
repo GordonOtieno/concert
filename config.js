@@ -60,7 +60,7 @@ function showSpeakers(speaker, n) {
           alt="speaker-Image"
         />
         <div class="mx-3">
-        <h3 class="card-title mb-3">${speaker[i].name}</h3>
+        <h3 class="card-title mb-3 speaker-name">${speaker[i].name}</h3>
         <div class="d-inline-block">
         <p class="designation">${speaker[i].desig}</p>
          <hr class="h-speakers">

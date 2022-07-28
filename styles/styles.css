@@ -6,6 +6,12 @@ body::before {
   height: 5rem;
 }
 
+.speaker-name {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .featured-speaker-b img {
   object-fit: fill;
 }
