@@ -6,6 +6,55 @@ body::before {
   height: 5rem;
 }
 
+.featured-speaker-b img {
+  object-fit: fill;
+}
+
+.h-speakers {
+  width: 20%;
+  border: 1px solid #5f5d5c;
+}
+
+.designation {
+  font-style: italic;
+  color: #e93a27;
+  text-align: left;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.main-p {
+  opacity: 0.9;
+}
+
+.home-partner {
+  opacity: 0.7;
+}
+
+.program-title {
+  color: #ec5242;
+}
+
+.program-card {
+  background-color: #3e4347;
+}
+
+.horizontal {
+  width: 50%;
+  border: 1px solid #e93a27;
+  margin-left: 1.3rem;
+  opacity: 1;
+}
+
+.horizon {
+  border: 1px solid #e93a27;
+  opacity: 1;
+  width: 50%;
+  margin-left: 20%;
+}
+
 .main-text {
   border: white solid 5px;
   padding: 1rem 1rem;
@@ -179,11 +228,60 @@ body::before {
   background-color: #f7f1f1;
 }
 
+.accordion-button::after {
+  margin-left: 0;
+  background-image: url('../images/icons/drop.png');
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #181717;
+}
+
+.partners-cont {
+  opacity: 0.3;
+}
+
 @media (max-width: 768px) {
   .sec-nav {
     background-image: url('../images/home-page.jpg');
     background-repeat: no-repeat;
     object-fit: cover;
+  }
+
+  .speaker-back {
+    background-color: white;
+  }
+
+  .showmore-btn {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline: none;
+    border: 1px solid #4f4f4f;
+    margin: 2rem 0;
+    background-color: white;
+  }
+
+  .more-icon {
+    color: #e62d19;
+    width: 25px;
+  }
+
+  .more-icon.none {
+    display: none;
+  }
+
+  .join-btn {
+    background-color: #e62d19;
+    border: none;
+    padding: 1rem 3rem;
+    display: block;
+    margin-left: 25%;
+  }
+
+  .see-all {
+    display: none;
   }
 
   .main-navigation {
@@ -202,6 +300,64 @@ body::before {
 
   .footer-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .footer-image {
+    padding-right: 1rem;
+  }
+
+  .footer-image a img {
+    width: 10rem;
+    object-fit: contain;
+  }
+
+  .partners-cont .partner-logo img {
+    width: 6rem;
+    object-fit: contain;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+  }
+
+  .program-card {
+    display: flex;
+    align-items: center;
+  }
+
+  .featured-speaker-b {
+    background-color: white;
+  }
+
+  .home-footer {
+    display: none;
+  }
+
+  .home-partner {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    background-color: #212529;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .see-all {
+    display: block;
+  }
+
+  .showmore-btn {
+    display: none;
   }
 }

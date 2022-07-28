@@ -40,10 +40,13 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/GordonOtieno/concert/issues).
 
+## Acknowledgements.
+[Cindy Shin](https://www.behance.net/adagio07) Author of the design used.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## 📝 License
+<!-- ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed. -->
